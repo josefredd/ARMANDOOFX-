@@ -1,0 +1,100 @@
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Armando - Editor After Effects</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+  body {
+    background: #0a0a0a;
+    color: #eee;
+    font-family: 'Orbitron', monospace, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #00ffff;
+  }
+
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 10px #00ffff);
+  }
+
+  p.description {
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .btn-neon {
+    padding: 15px 30px;
+    color: #0ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 3px solid #0ff;
+    border-radius: 10px;
+    box-shadow:
+      0 0 10px #0ff,
+      0 0 20px #0ff,
+      0 0 30px #00ffff,
+      0 0 40px #00ffff;
+    transition: 0.3s;
+  }
+
+  .btn-neon:hover {
+    color: #00ffff;
+    border-color: #00ffff;
+    box-shadow:
+      0 0 20px #00ffff,
+      0 0 30px #00ffff,
+      0 0 40px #00ffff,
+      0 0 50px #00ffff;
+    cursor: pointer;
+  }
+
+  footer {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Adobe_After_Effects_CC_icon.svg/1024px-Adobe_After_Effects_CC_icon.svg.png" alt="Logo After Effects" class="logo" />
+
+<h1>Armando - Editor After Effects</h1>
+
+<p class="description">
+  Criativo e dedicado, especializado em motion graphics e efeitos visuais com After Effects. Transformo ideias em vídeos impactantes, trazendo dinamismo e profissionalismo para seus projetos audiovisuais. Vamos dar vida ao seu conteúdo com animações únicas e efeitos personalizados!
+</p>
+
+<div class="buttons">
+  <a href="https://discord.gg/Tk9C2XS4" target="_blank" class="btn-neon">Discord</a>
+  <a href="https://livepix.gg/armandoofx" target="_blank" class="btn-neon">Live Pix</a>
+</div>
+
+<footer>
+  &copy; 2025 Armando - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
